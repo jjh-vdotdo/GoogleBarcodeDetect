@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtContent"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GoogleDecodingTest"
+            android:id="@+id/decode_test_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgview"/>
+
+        <Button
+            android:id="@+id/move_to_decoder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="move to decoding"/>
+
+        <Button
+            android:id="@+id/move_to_zip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="move to zip "/>
+
+        <Button
+            android:id="@+id/zip_to_pc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zip to server"/>
+
+        <Button
+            android:id="@+id/to_sqlite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="move to sqlite"/>
+    </LinearLayout>
+
+</RelativeLayout>
