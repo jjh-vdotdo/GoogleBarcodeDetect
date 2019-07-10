@@ -21,6 +21,7 @@ import java.util.List;
  * SQLite DataBase를 이용해 데이터를 저장, 수정, 삭제하는 클래스
  * 주 기능 1. 저장된 모든 데이터를 리사이클러뷰에 출력한다
  *         2. 플로팅 버튼(fb)을 통해 새로운 데이터를 저장, 수정, 삭제하는 클래스(SQLite_Act_Activity.class)로 이동
+ *         second commit test
  */
 
 public class SQLite_Activity extends AppCompatActivity implements ItemClickListener {
